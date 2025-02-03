@@ -1,0 +1,66 @@
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+
+
+  }
+
+  @keyframes typing {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  
+  .typingIndicator > .dot {
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 4px;
+    animation: typing 1s infinite;
+    
+  }
+  
+
+  @media(max-width: 600px) {
+    .typing-indicator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+  
+  
+    }
+  
+    @keyframes typing {
+      0% {
+        opacity: 0.5;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0.5;
+      }
+    }
+    
+    .typingIndicator > .dot {
+      width: 10px;
+      height: 20px;
+      border-radius: 50%;
+      margin: 0px 4px;
+      animation: typing 1s infinite;
+      
+    }
+    
+  }
+  
+  
+  

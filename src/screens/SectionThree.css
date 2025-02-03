@@ -1,0 +1,145 @@
+.sectionThree {
+    position: relative;
+    height: 100%;
+    background-color: #00185b;
+    
+}
+
+.sectionThree__gradient {
+    width: 100%;
+    height:fit-content;
+    background-color: rgba(166, 166, 166, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+
+}
+
+.sectionThree__image {
+    margin-top: 2%;
+    object-fit: contains;
+    
+    border-radius: 8%;
+    height: 410px;
+    width: 480px;
+    
+
+}
+
+.sectionThree__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:100
+
+}
+
+.sectionThree__body > h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 170%;
+    font-weight: 800;
+    
+
+}
+
+.sectionThree__body > p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight: 600;
+    
+
+}
+
+.sectionThree__body {
+    position:absolute;
+    top: 20%;
+    z-index: 1;
+    background-color: white;
+    color: #fff;
+
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-left: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    
+}
+
+.sectionThree__entry > p {
+    color:rgba(31, 65, 38, 0.726);
+    align-items: center;
+    text-align:center;
+    padding-right: 2.4%;
+    
+    
+       
+}
+
+
+
+.sectionThree__title > h2 {
+    color:rgba(31, 65, 38, 0.726);
+    color: rgb(83, 145, 57);
+    font-weight: 500;
+    padding-right: 2%;
+    
+
+}
+
+
+@media(max-width: 600px) {
+
+    .sectionThree__image {
+        margin-top: 2%;
+        object-fit: contains;
+        
+        border-radius: 8%;
+        height: 290px;
+        width: 330px;
+       
+        
+    
+    }
+
+    
+.sectionThree__entry > p {
+    color:rgba(18, 87, 33, 0.726);
+    align-items: center;
+    text-align:center;
+    padding-right: 1.4%;
+    font-size: small;
+    
+    
+       
+}
+
+
+}
+
+

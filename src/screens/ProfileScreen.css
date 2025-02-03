@@ -1,0 +1,132 @@
+.profileScreen__signOut {
+    
+    padding: 8px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(83, 145, 57);
+    border-radius: 5%;
+    cursor: pointer;
+    border: none;  
+    margin-left: 5%; 
+}
+
+.profileScreen > h1 {
+    font-weight:100;
+    align-items: center;
+    
+    text-align: center;
+}
+
+.profileScreen__details > h2 {
+    font-weight:lighter;
+    margin-left: 9%;
+    font-size: medium;
+   
+}
+
+.profileScreen__plans > h3 {
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+    color: rgb(40, 144, 31);
+   
+}
+
+.profileScreen__change {
+    background-color: rgb(83, 145, 57);
+    padding: 8px 10px;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+
+.profileScreen__root {
+    background: #242526;
+    background-color: #484a4d;
+    text-emphasis-color: #102351;
+    nav-down: 60px;
+    border: 1px solid #474a4d;
+    border-radius: 8px;
+    
+}
+
+.profileScreen__root > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+     height: var(--nav-size);
+     background-color: var(--background);
+     padding: 0 1rem;
+     border-bottom: var(--border);
+}
+
+.navbar-nav {
+    max-width: 93%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-button {
+    
+    border-radius: 15%;
+    padding: 11px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 300ms;
+    cursor: pointer;
+    background-color: #161e83;
+
+    
+
+}
+
+
+
+.dropdown {
+    position: absolute;
+    top: 61px;
+    width: 180px;
+    transform: translate(-27%);
+    background-color: #00185b;
+
+    border-radius: 5%;
+    
+    overflow: hidden;
+
+}
+
+.menu-item {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 3%;
+    transition: background var(--speed);
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+
+
+
+ 
+  
+  
+
+.menu-item:hover {
+    background-color: #23242b;
+}

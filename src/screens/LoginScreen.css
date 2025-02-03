@@ -1,0 +1,282 @@
+.loginScreen {
+    position: relative;
+    height: 100%;
+    background: url("backPic.jpg")
+    center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen__gradient {
+   
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+
+}
+
+
+
+
+.loginScreen__logo {
+    position: fixed;
+    left: 0;
+    margin-top: 2%;
+    margin-left: 3%;
+    object-fit: contains;
+    padding-left: 20px;
+    width: 80px;
+}
+
+.loginScreen__body > h1 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:100;
+
+}
+
+.loginScreen__body > h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    
+
+}
+
+
+
+.loginScreen__body > h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 170%;
+
+
+}
+
+.loginScreen__body > h4 {
+    font-size: 1.06rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(194, 216, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+
+.loginScreen__body {
+    position:absolute;
+    top: 25%;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-left: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.loginScreen__signupbtn {
+    background-color:rgb(96, 169, 65);
+    font-size: 1.1rem;
+    padding: 1.5%;
+    border-radius: 20%;
+    border-style:hidden;
+    border: none;
+    cursor: pointer;
+} 
+
+
+.loginScreen__button {
+    position: fixed;
+    right: 0;
+    margin-top: 3%;
+    margin-right: 4%;
+    object-fit: contains;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(83, 145, 57);
+    border-radius: 11%;
+    cursor: pointer;
+    border: none;
+    
+
+}
+
+
+
+
+/*Mobile View*/
+@media(max-width: 600px) {
+    .loginScreen {
+        position: relative;
+        height: 100%;
+        background: url("backPic.jpg")
+        center no-repeat;
+        background-size: cover;
+    }
+
+    
+    .loginScreen__gradient {
+        width: 100%;
+        z-index: 1;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.8) 0,
+            rgba(0,0,0,0) 60%,
+            rgba(0, 0, 0, 0.8) 100%
+        );
+    
+    }
+    
+    
+    
+    .loginScreen__logo {
+        position: fixed;
+        left: 0;
+        margin-top: 2%;
+        margin-left: 3%;
+        object-fit: contains;
+        padding-left: 20px;
+    }
+    
+    .loginScreen__body > h1 {
+        font-size: 2.1rem;
+
+        margin-bottom: 20px;
+        margin-left: 30%;
+        white-space: nowrap;
+        color: rgb(83, 145, 57);
+        font-weight: 20px;
+        padding-right: 23%;
+    }
+
+    .loginScreen__body > h2 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        white-space: nowrap;
+        color: rgb(83, 145, 57);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 100;
+        font-size: 120%;
+        padding-left: 7%;
+    
+    }
+
+    .loginScreen__body > h3 {
+        font-size: 0.98rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        white-space: wrap;
+        color: rgb(83, 145, 57);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 100;
+        padding-left: 9.3%;
+        line-height: 170%;
+    
+    }
+    
+    .loginScreen__body > h4 {
+        font-size: 0.99rem;
+
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        white-space: nowrap;
+        color: rgb(226, 213, 213);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 520;
+        padding-left: 7%;
+
+    
+    }
+    
+    .loginScreen__body {
+        position: absolute;
+        top: 25%;
+        z-index: 1;
+        color: #fff;
+        padding: 20px;
+        text-align:left;
+    
+    } 
+    
+    .loginScreen__button {
+        position: fixed;
+        right: 0;
+        margin-top: 7%;
+        margin-right: 10%;
+        object-fit: contains;
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: rgb(83, 145, 57);
+        border-radius: 20%;
+        cursor: pointer;
+        
+    
+    }
+
+    .loginScreen__signupbtn {
+        background-color:rgb(83, 145, 57);
+        font-size: 1.1rem;
+        padding: 4.5%;
+        margin-left: 40%;
+        border-radius: 20%;
+        border-style:hidden;
+        border: none;
+        cursor: pointer;
+    } 
+    
+
+}

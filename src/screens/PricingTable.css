@@ -1,0 +1,114 @@
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow:wrap;
+    
+  }
+  
+  .pricing-plan {
+    background-color: #00185b;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 5px;
+    text-align: center;
+    
+  }
+
+  .pricing-table > .renew {
+margin-right: 70%;
+
+  }
+
+
+  /*
+   {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow:wrap;
+}
+
+*/
+
+
+  .plan-price .price-value {
+    font-size: 36px; /* Adjust the font size as desired */
+    font-weight:lighter; 
+    margin-bottom: 20px;
+    color: #4CAF50; 
+}
+ 
+  .plan-price .price-period {
+    font-size: 17px; /* Adjust the font size as desired */
+  }
+  
+  .plan-name {
+    font-size: 24px;
+    font-weight:lighter;
+    margin-bottom: 10px;
+    color:rgb(205, 223, 223);
+  }
+  
+  .plan-price {
+    font-size: 36px;
+    font-weight:lighter;
+    margin-bottom: 20px;
+    color: #4CAF50;
+  }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    
+  }
+  
+  .plan-features li {
+    margin-bottom: 10px;
+  }
+  
+  .plan-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  .plan-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pricing-plan-disabled > button {
+    background-color: gray !important;
+    margin-bottom: 5%;
+
+  }
+
+ 
+
+  @media(max-width: 600px) {
+
+    
+  .pricing-table > .renew {
+    line-height: 140%;
+      }
+
+  }

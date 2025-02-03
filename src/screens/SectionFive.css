@@ -1,0 +1,183 @@
+.sectionFive {
+    position: relative;
+    height: 100%;
+    background-color: #00185b;
+    
+}
+
+.sectionFive__gradient {
+    width: 100%;
+    height:fit-content;
+    background-color: rgba(166, 166, 166, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+
+}
+
+
+.sectionFive__signupbtn {
+    background-color:rgb(123, 213, 85);
+    font-size: 1.1rem;
+    padding: 1.3%;
+    border-radius: 20%;
+    border-style:hidden;
+    border: none;
+    cursor: pointer;
+    margin-right: 6%;
+} 
+
+
+.sectionFive__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:100
+
+}
+
+.sectionFive__body > h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 190%;
+    font-weight: 500;
+    
+
+}
+
+.sectionFive__body > p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(83, 145, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight: 600;
+    
+
+}
+
+.sectionFive__body {
+    top: 10%;
+    z-index: 1;
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+
+    
+}
+
+
+.sectionFive__entry > p {
+    color:rgba(31, 65, 38, 0.726);
+    align-items: center;
+    text-align:center;
+    padding-right: 4.1%;
+   
+       
+}
+
+.sectionFive__entry {
+    color:rgba(31, 65, 38, 0.726);
+    align-items: center;
+    text-align:center;  
+       
+}
+
+.sectionFive__entry > title {
+    color:rgba(31, 65, 38, 0.726);
+    align-items: center;
+    text-align:center;
+    font-weight: bold;
+
+   
+       
+}
+
+
+.sectionFive__title > h2 {
+    color:rgba(31, 65, 38, 0.726);
+    color: rgb(83, 145, 57);
+    font-weight: 500;
+    padding-right: 2%;
+    
+}
+
+.sectionFive__entry > h3 {
+    color:rgba(31, 65, 38, 0.726);
+    color: rgb(35, 118, 0);
+    font-weight: 500;
+    padding-right: 3.3%;
+   
+
+}
+
+
+.container {
+    background-image: url('./lightupPic.jpg');
+}
+
+.privacy {
+    color:rgba(31, 65, 38, 0.726);
+    align-items: center;
+    text-align:center;
+    cursor: pointer;
+    text-decoration:underline;
+    padding-right: 0.1%;
+    
+        
+}
+
+.sectionFive__last > p {
+    color:rgba(31, 65, 38, 0.726);
+ 
+
+}
+
+.terms {
+    color:rgba(31, 65, 38, 0.726);
+    align-items: center;
+    text-align:center;
+    padding-right: 2%;    
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+
+@media(max-width: 600px) {
+
+    .sectionFive__entry > p {
+        color:rgba(17, 37, 21, 0.726);
+        align-items:center;
+        text-align:center;
+       padding-left: 5%;
+       font-size: 13px;
+           
+    }
+
+}

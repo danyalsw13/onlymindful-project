@@ -1,0 +1,201 @@
+.signinScreen {
+    max-width: 300px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.85);
+}
+
+.signinScreen > form {
+    display: grid;
+    flex-direction: column;
+
+}
+
+
+.signinScreen_Modal  > form > input {
+    outline-width: 0;
+    height: 31px;
+    width: 300px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border:none;
+    padding: 5px 15px;
+    color: black;
+}
+
+.signinScreen_Modal  > form > button {
+    padding: 12px 20px;
+    font-size: 100;
+    color: white;
+    border-radius: 5px;
+    background-Color: rgba(0,0,0,0);
+    cursor: pointer;
+    border: none;
+    margin-top: 2px;
+    font-weight: 600;
+}
+
+.signinScreen_Modal  > form > button:hover {
+    text-decoration: underline;
+}
+
+.signinScreen > form > input{
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border:none;
+    padding: 5px 15px;
+    color: black;
+
+}
+
+.signinScreen > form > button {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(83, 145, 57);
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.google_signIn > button {
+    padding: 14px 70px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(14, 12, 12);
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+    font-weight: 600;
+    font-weight: 100;
+}
+
+
+.signinScreen > form > h1 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: 50;
+
+}
+
+.siginScreen > form > h4 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.signinScreen__gray {
+    color: gray;
+    cursor: pointer;
+
+}
+
+.signinScreen__gray:hover {
+    color: gray;
+    text-decoration: underline;
+
+}
+
+.signinScreen__link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+
+}
+
+.signinScreen__googlelogo {
+   
+    width: 10%;
+    
+  }
+
+  .google_signIn > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 17%;
+  }
+
+
+@media (max-width: 600px) {
+    .signinScreen {
+        max-width: 280px;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: 2%;
+        background-color: rgba(0,0,0,0.85);
+    }
+    
+    .signinScreen > form {
+        display: grid;
+        flex-direction: column;
+    
+    }
+    
+    .signinScreen > form > input{
+        outline-width: 0;
+        height: 40px;
+        margin-bottom: 14px;
+        border-radius: 5px;
+        border:none;
+        padding: 5px 15px;
+        color: black;
+    
+    }
+    
+    .signinScreen > form > button {
+        padding: 16px 20px;
+        font-size: 1rem;
+        color: white;
+        border-radius: 5px;
+        background-color: rgb(83, 145, 57);
+        cursor: pointer;
+        border: none;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    
+    .signinScreen > form > h1 {
+        text-align: left;
+        margin-bottom: 25px;
+        font-weight: 50;
+    
+    }
+    
+    .siginScreen > form > h4 {
+        text-align: left;
+        margin-top: 30px;
+    }
+    
+    .signinScreen__gray {
+        color: gray;
+        cursor:pointer;
+    
+    }
+    
+    .signinScreen__link {
+        cursor:pointer;
+        
+      
+    
+    
+    }
+
+    .signinScreen__link:hover {
+        text-decoration: underline;
+      
+    
+    
+    }
+
+    .signinScreen_Modal > form > button {
+
+        margin-left: 27%;
+    }
+    
+}

@@ -1,0 +1,104 @@
+.MODAL_STYLES {
+    position: fixed;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    background-Color: #111c36;
+    padding: 50px;
+    z-Index: 1000;
+    border-radius: 3%;
+
+}
+
+.OVERLAY_STYLES {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-Color: rgba(0,0,0,0.3);
+    z-Index: 1000;
+
+}
+
+.MODAL_STYLES > button {
+    padding: 12px 20px;
+    font-size: 100;
+    color: white;
+    border-radius: 5px;
+    background-Color: rgba(0,0,0,0.2);
+
+    cursor: pointer;
+    border: none;
+    margin-top: 2px;
+    font-weight: 600;
+    
+}
+
+.MODAL_STYLES > p {
+    font-size: 14px;
+    line-height: 50%;
+    
+
+}
+
+.MODAL_STYLES > button:hover {
+    text-decoration: underline;
+
+}
+
+
+@media(max-width: 600px) {
+
+    .MODAL_STYLES {
+        position: fixed;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        background-Color: #111c36;
+        padding: 40px;
+        z-Index: 1000;
+        border-radius: 3%;
+    
+    }
+    
+    .OVERLAY_STYLES {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-Color: rgba(0,0,0,0.3);
+        z-Index: 1000;
+    
+    }
+    
+    .MODAL_STYLES > button {
+        padding: 12px 20px;
+        font-size: 100;
+        color: white;
+        border-radius: 5px;
+        background-Color: rgba(0,0,0,0.2);
+    
+        cursor: pointer;
+        border: none;
+        margin-top: 2px;
+        font-weight: 600;
+        margin-left: 35%;
+        
+    }
+    
+    .MODAL_STYLES > p {
+        font-size: 14px;
+        line-height: 50%;
+        
+    
+    }
+    
+    .MODAL_STYLES > button:hover {
+        text-decoration: underline;
+    
+    }
+    
+
+}
